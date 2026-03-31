@@ -32,6 +32,31 @@ function shellQuote(value: string): string {
   return `'${value.replace(/'/g, `'"'"'`)}'`;
 }
 
+async function searchLifeData(query: string): Promise<string> {
+  const fileList = await runShell('ssh dev-dispatch "ls ~/.local/share/life/memories"');
+  const files = fileList
+    .split("\n")
+    .map((line) => line.trim())
+    .filter(Boolean)
+    .filter((line) => line.endsWith(".md"));
+
+  const needle = query.toLowerCase();
+  const matches: string[] = [];
+
+  for (const file of files) {
+    const remotePath = `~/.local/share/life/memories/${file}`;
+    const content = await runShell(`ssh dev-dispatch "cat ${remotePath}"`);
+    const lines = content.split("\n");
+    for (let i = 0; i < lines.length; i += 1) {
+      if (lines[i].toLowerCase().includes(needle)) {
+        matches.push(`${remotePath}:${i + 1}:${lines[i]}`);
+      }
+    }
+  }
+
+  return matches.join("\n").trim() || "No matches found.";
+}
+
 server.setRequestHandler(ListToolsRequestSchema, async () => ({
   tools: [
     {
@@ -116,10 +141,8 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
     if (!query) {
       throw new Error("query is required");
     }
-    const output = await runShell(
-      `ssh dev-dispatch "rg -n -S --no-heading ${shellQuote(query)} ~/.local/share/life/ || true"`
-    );
-    return { content: [{ type: "text", text: output || "No matches found." }] };
+    const output = await searchLifeData(query);
+    return { content: [{ type: "text", text: output }] };
   }
 
   if (name === "check_capabilities") {
