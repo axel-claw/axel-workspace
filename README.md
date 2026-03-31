@@ -1,43 +1,14 @@
-# axel-mcp
+# axel-workspace
 
-MCP server for Axel Claw — exposes dispatch, life data, and capability tools as a standard Model Context Protocol service.
+This repo no longer hosts the Axel MCP server.
 
-## Tools
+The MCP server was moved to:
+- https://github.com/axel-claw/axel-mcp
 
-| Tool | Description |
-|------|-------------|
-| `dispatch_status` | Check current dispatch status across all org users |
-| `dispatch_task` | Send a development task to an org user via Ralph Loop |
-| `search_life_data` | Search shared life data knowledge base |
-| `check_capabilities` | List available skills and tools |
+Current MCP tools:
+- `dispatch_status`
+- `dispatch_task`
+- `search_life_data`
+- `check_capabilities`
 
-## Setup
-
-```bash
-npm install
-npm run build
-```
-
-## Usage with OpenClaw
-
-Add to `openclaw.json`:
-
-```json
-{
-  "mcpServers": {
-    "axel": {
-      "command": "node",
-      "args": ["dist/index.js"],
-      "cwd": "/path/to/axel-workspace"
-    }
-  }
-}
-```
-
-## Architecture
-
-This server runs on the OpenClaw VPS and communicates with the dev server via SSH (`dev-dispatch` alias). It codifies the existing proxy command contracts into standard MCP tools.
-
-## Identity
-
-This is Axel-owned infrastructure. All operations run under the `axel-claw` identity. The `dispatch_task` tool blocks routing to `pselamy` by default — Axel work belongs in Axel lanes.
+This repository is retained as a pointer so older links do not fail silently.
