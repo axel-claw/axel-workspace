@@ -28,3 +28,11 @@ node bin/axel-artifacts.js today
 ```bash
 node bin/axel-artifacts.js brief
 ```
+
+## Google Doc helper
+
+Create and optionally share a Google Doc in one step.
+
+```bash
+node bin/axel-gdoc.js --title "My title" --share patrick@selamy.dev
+```
