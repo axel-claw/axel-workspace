@@ -38,6 +38,10 @@ function todayUtc() {
   return new Date().toISOString().slice(0, 10);
 }
 
+function itemsForDate(date) {
+  return loadLedger().filter((item) => item.date === date);
+}
+
 function addArtifact(argv) {
   const args = parseArgs(argv);
   const required = ['type', 'title'];
@@ -66,7 +70,7 @@ function addArtifact(argv) {
 }
 
 function printToday() {
-  const items = loadLedger().filter((item) => item.date === todayUtc());
+  const items = itemsForDate(todayUtc());
   if (!items.length) {
     console.log('No artifacts logged today.');
     return;
@@ -78,12 +82,50 @@ function printToday() {
   }
 }
 
+function printBrief(argv) {
+  const args = parseArgs(argv);
+  const date = args.date || todayUtc();
+  const items = itemsForDate(date);
+  console.log(`Daily brief for ${date}\n`);
+  if (!items.length) {
+    console.log('- No logged artifacts');
+    return;
+  }
+
+  const grouped = new Map();
+  for (const item of items) {
+    if (!grouped.has(item.type)) grouped.set(item.type, []);
+    grouped.get(item.type).push(item);
+  }
+
+  console.log('Shipped');
+  for (const [type, entries] of grouped.entries()) {
+    console.log(`- ${type}: ${entries.length}`);
+    for (const entry of entries) {
+      const extra = entry.url ? ` (${entry.url})` : '';
+      console.log(`  - ${entry.title}${extra}`);
+    }
+  }
+
+  const pending = items.filter((item) => ['draft', 'needs-followup', 'blocked'].includes(item.status));
+  console.log('\nNeeds attention');
+  if (!pending.length) {
+    console.log('- None logged');
+  } else {
+    for (const item of pending) {
+      console.log(`- ${item.title} [${item.status}]`);
+    }
+  }
+}
+
 const [command, ...rest] = process.argv.slice(2);
 if (command === 'add') {
   addArtifact(rest);
 } else if (command === 'today') {
   printToday();
+} else if (command === 'brief') {
+  printBrief(rest);
 } else {
-  console.log('Usage: axel-artifacts <add|today> ...');
+  console.log('Usage: axel-artifacts <add|today|brief> ...');
   process.exit(command ? 1 : 0);
 }

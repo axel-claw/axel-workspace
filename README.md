@@ -22,3 +22,9 @@ node bin/axel-artifacts.js add \
 ```bash
 node bin/axel-artifacts.js today
 ```
+
+### Generate a daily brief from the ledger
+
+```bash
+node bin/axel-artifacts.js brief
+```
