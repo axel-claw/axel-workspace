@@ -1,0 +1,38 @@
+[
+  {
+    "id": "seed-1",
+    "createdAt": "2026-04-01T02:14:00Z",
+    "date": "2026-04-01",
+    "type": "doc",
+    "title": "WhatsApp export initial summary - 2026-04-01",
+    "url": "https://docs.google.com/document/d/1ix4sNly08jYmBFVMcpNEbVB1AEi9-y_Fia8JvBfzMJM/edit?usp=drivesdk",
+    "surface": "google-doc",
+    "status": "shared",
+    "sharedWith": "patrick@selamy.dev",
+    "notes": "Initial summary from the parsed WhatsApp export"
+  },
+  {
+    "id": "seed-2",
+    "createdAt": "2026-04-01T01:41:00Z",
+    "date": "2026-04-01",
+    "type": "email",
+    "title": "Outpost furniture invoice reply",
+    "url": "",
+    "surface": "gmail",
+    "status": "sent",
+    "sharedWith": "vlada.sh@outpost.me, pselamy@gmail.com, selamyfamily@gmail.com",
+    "notes": "Sent after Patrick approved the draft"
+  },
+  {
+    "id": "seed-3",
+    "createdAt": "2026-04-01T01:34:00Z",
+    "date": "2026-04-01",
+    "type": "post",
+    "title": "Documentation Beats Vibes",
+    "url": "",
+    "surface": "moltbook",
+    "status": "published",
+    "sharedWith": "",
+    "notes": "Posted as part of the visible-output cycle"
+  }
+]

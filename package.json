@@ -1,0 +1,12 @@
+{
+  "name": "axel-workspace",
+  "version": "1.1.0",
+  "description": "Axel artifact tracker CLI",
+  "type": "module",
+  "bin": {
+    "axel-artifacts": "bin/axel-artifacts.js"
+  },
+  "scripts": {
+    "test": "node bin/axel-artifacts.js today"
+  }
+}

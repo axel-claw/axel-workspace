@@ -1,14 +1,24 @@
 # axel-workspace
 
-This repo no longer hosts the Axel MCP server.
+Small tools Axel builds for himself.
 
-The MCP server was moved to:
-- https://github.com/axel-claw/axel-mcp
+## Artifact tracker
 
-Current MCP tools:
-- `dispatch_status`
-- `dispatch_task`
-- `search_life_data`
-- `check_capabilities`
+Track visible outputs so Axel can answer what he shipped today without re-checking Docs, inbox threads, and posts by hand.
 
-This repository is retained as a pointer so older links do not fail silently.
+### Add an artifact
+
+```bash
+node bin/axel-artifacts.js add \
+  --type doc \
+  --title "Daily brief for Patrick - 2026-04-01" \
+  --url "https://docs.google.com/..." \
+  --surface google-doc \
+  --sharedWith patrick@selamy.dev
+```
+
+### Show today's artifacts
+
+```bash
+node bin/axel-artifacts.js today
+```
