@@ -1,0 +1,361 @@
+{
+  "totalMessages": 8330,
+  "firstDate": "1/20/24",
+  "lastDate": "3/28/26",
+  "topSenders": [
+    {
+      "sender": "Max Buckley",
+      "count": 1409
+    },
+    {
+      "sender": "+44 7880 002298",
+      "count": 1100
+    },
+    {
+      "sender": "+31 6 15560840",
+      "count": 751
+    },
+    {
+      "sender": "+971 50 674 1335",
+      "count": 504
+    },
+    {
+      "sender": "+65 8477 0749",
+      "count": 501
+    },
+    {
+      "sender": "+41 78 249 96 46",
+      "count": 289
+    },
+    {
+      "sender": "+1 (410) 790-0799",
+      "count": 254
+    },
+    {
+      "sender": "+44 7309 099297",
+      "count": 226
+    },
+    {
+      "sender": "+44 7873 770176",
+      "count": 226
+    },
+    {
+      "sender": "+31 6 15674973",
+      "count": 222
+    },
+    {
+      "sender": "+41 78 203 14 45",
+      "count": 213
+    },
+    {
+      "sender": "+49 177 7976182",
+      "count": 213
+    },
+    {
+      "sender": "+81 90-6889-9833",
+      "count": 202
+    },
+    {
+      "sender": "+34 626 52 16 60",
+      "count": 163
+    },
+    {
+      "sender": "+49 1511 0521539",
+      "count": 135
+    }
+  ],
+  "keywordHits": [
+    {
+      "keyword": "claude",
+      "count": 227
+    },
+    {
+      "keyword": "agent",
+      "count": 204
+    },
+    {
+      "keyword": "openai",
+      "count": 141
+    },
+    {
+      "keyword": "rag",
+      "count": 106
+    },
+    {
+      "keyword": "gemini",
+      "count": 83
+    },
+    {
+      "keyword": "agents",
+      "count": 71
+    },
+    {
+      "keyword": "mcp",
+      "count": 54
+    },
+    {
+      "keyword": "quant",
+      "count": 31
+    },
+    {
+      "keyword": "memory",
+      "count": 16
+    },
+    {
+      "keyword": "quantization",
+      "count": 9
+    }
+  ],
+  "sampleLinks": [
+    {
+      "sender": "Max Buckley",
+      "date": "1/20/24",
+      "url": "https://pub.towardsai.net/andrej-karpathy-llm-paper-reading-list-for-llm-mastery-89e751ad0cc1"
+    },
+    {
+      "sender": "Max Buckley",
+      "date": "1/20/24",
+      "url": "https://huggingface.co/collections/osanseviero/moes-papers-reading-list-65a83f8a9aec16459920ffe0"
+    },
+    {
+      "sender": "Max Buckley",
+      "date": "1/20/24",
+      "url": "https://www.oxfordml.school/"
+    },
+    {
+      "sender": "Max Buckley",
+      "date": "1/20/24",
+      "url": "https://2024.appliedmldays.org/"
+    },
+    {
+      "sender": "+44 7309 099297",
+      "date": "1/20/24",
+      "url": "https://x.com/rasbt/status/1748021765790376385?s=48&t=mbuYi8bEzW8PD16jpMnAkA"
+    },
+    {
+      "sender": "Max Buckley",
+      "date": "1/22/24",
+      "url": "https://www.bloomberg.com/news/articles/2024-01-19/google-deepmind-ai-scientists-in-talks-to-leave-for-french-stealth-startup?embedded-checkout=true"
+    },
+    {
+      "sender": "+44 7309 099297",
+      "date": "1/22/24",
+      "url": "https://www.politico.eu/article/open-source-artificial-intelligence-france-bets-big/"
+    },
+    {
+      "sender": "+370 676 81011",
+      "date": "1/22/24",
+      "url": "https://twitter.com/docmilanfar/status/1749133617102762063"
+    },
+    {
+      "sender": "Max Buckley",
+      "date": "1/23/24",
+      "url": "https://www.ft.com/content/9e7ca55c-6987-4064-a181-47905eeb4662"
+    },
+    {
+      "sender": "+44 7880 002298",
+      "date": "1/23/24",
+      "url": "https://echochamberpost.com"
+    },
+    {
+      "sender": "+41 78 249 96 46",
+      "date": "1/23/24",
+      "url": "https://lightning.ai/lightning-ai/studios/code-lora-from-scratch?view=public&section=all"
+    },
+    {
+      "sender": "Max Buckley",
+      "date": "1/24/24",
+      "url": "https://youtu.be/PeSLWTZ1Yg8?si=Zt2kKdXXOqA1iwGA"
+    },
+    {
+      "sender": "Max Buckley",
+      "date": "1/24/24",
+      "url": "https://geometricdeeplearning.com/lectures/"
+    },
+    {
+      "sender": "Max Buckley",
+      "date": "1/24/24",
+      "url": "https://dataroots.io/blog/a-gentle-introduction-to-geometric"
+    },
+    {
+      "sender": "+44 7309 099297",
+      "date": "1/25/24",
+      "url": "https://magazine.sebastianraschka.com/archive?sort=new"
+    },
+    {
+      "sender": "Max Buckley",
+      "date": "1/29/24",
+      "url": "https://www.youtube.com/watch?v=2GwBez0D20A"
+    },
+    {
+      "sender": "Max Buckley",
+      "date": "2/2/24",
+      "url": "https://youtu.be/sJXn4Cl4oww?si=vsB7Iv0xxeXmkfBK"
+    },
+    {
+      "sender": "+44 7309 099297",
+      "date": "2/4/24",
+      "url": "https://youtube.com/playlist?list=PLImtCgowF_ES_JdF_UcM60EXTcGZg67Ua&si=krbNp7BtRO1OeNjo"
+    },
+    {
+      "sender": "+44 7309 099297",
+      "date": "2/5/24",
+      "url": "https://www.reddit.com/gallery/1aj2ez3"
+    },
+    {
+      "sender": "Max Buckley",
+      "date": "2/6/24",
+      "url": "https://blog.research.google/2024/02/graph-neural-networks-in-tensorflow.html?m=1"
+    },
+    {
+      "sender": "Max Buckley",
+      "date": "2/8/24",
+      "url": "https://www.theinformation.com/articles/openai-shifts-ai-battleground-to-software-that-operates-devices-automates-tasks"
+    },
+    {
+      "sender": "Max Buckley",
+      "date": "2/8/24",
+      "url": "https://blog.google/technology/ai/google-gemini-update-sundar-pichai-2024/"
+    },
+    {
+      "sender": "+370 676 81011",
+      "date": "2/9/24",
+      "url": "https://twitter.com/Kei0x/status/1755779389751525873"
+    },
+    {
+      "sender": "Max Buckley",
+      "date": "2/11/24",
+      "url": "https://medium.com/@maxwbuckley/entering-machine-learning-from-a-nontraditional-background-a-decade-long-journey-a0b1b49eb1d8"
+    },
+    {
+      "sender": "+370 676 81011",
+      "date": "2/12/24",
+      "url": "https://archive.ph/DnePF"
+    },
+    {
+      "sender": "+370 676 81011",
+      "date": "2/13/24",
+      "url": "https://arxiv.org/abs/2312.04615"
+    },
+    {
+      "sender": "+41 76 529 84 98",
+      "date": "2/14/24",
+      "url": "https://x.com/karpathy/status/1757600075281547344?t=v3NHNWAzuPFm-wcld0UMEw&s=08"
+    },
+    {
+      "sender": "Max Buckley",
+      "date": "2/14/24",
+      "url": "https://youtu.be/J0p_thJJnoo?si=cPfbLTIDS_jIRy6U"
+    },
+    {
+      "sender": "+34 647 16 15 71",
+      "date": "2/15/24",
+      "url": "https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024"
+    },
+    {
+      "sender": "+34 647 16 15 71",
+      "date": "2/15/24",
+      "url": "https://cloud.google.com/vertex-ai/docs/generative-ai/pricing?hl=en"
+    },
+    {
+      "sender": "+34 647 16 15 71",
+      "date": "2/15/24",
+      "url": "https://platform.openai.com/tokenizer"
+    },
+    {
+      "sender": "+34 647 16 15 71",
+      "date": "2/15/24",
+      "url": "https://openai.com/sora"
+    },
+    {
+      "sender": "+41 76 529 84 98",
+      "date": "2/16/24",
+      "url": "https://ai.meta.com/blog/v-jepa-yann-lecun-ai-model-video-joint-embedding-predictive-architecture/"
+    },
+    {
+      "sender": "Max Buckley",
+      "date": "2/17/24",
+      "url": "https://www.borealisai.com/research-blogs/mastering-language-models-a-comprehensive-collection-of-tutorials/"
+    },
+    {
+      "sender": "+41 78 249 96 46",
+      "date": "2/20/24",
+      "url": "https://www.reuters.com/technology/microsoft-expand-its-ai-infrastructure-spain-with-21-billion-investment-2024-02-19/?utm_source=bensbites&utm_medium=newsletter&utm_campaign=daily-digest-insider-ai-network"
+    },
+    {
+      "sender": "Max Buckley",
+      "date": "2/20/24",
+      "url": "https://drive.google.com/file/d/1IYgjs0Vf8TPmVW6w4S125j3G5Asatn4f/view"
+    },
+    {
+      "sender": "+34 647 16 15 71",
+      "date": "2/21/24",
+      "url": "https://youtu.be/zduSFxRajkE"
+    },
+    {
+      "sender": "Max Buckley",
+      "date": "2/21/24",
+      "url": "https://152334h.github.io/blog/non-determinism-in-gpt-4/"
+    },
+    {
+      "sender": "Max Buckley",
+      "date": "2/21/24",
+      "url": "https://blog.google/technology/developers/gemma-open-models/"
+    },
+    {
+      "sender": "+34 647 16 15 71",
+      "date": "2/21/24",
+      "url": "https://blog.google/technology/developers/gemma-open-models/"
+    },
+    {
+      "sender": "Max Buckley",
+      "date": "2/21/24",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2024"
+    },
+    {
+      "sender": "+41 76 734 39 47",
+      "date": "2/22/24",
+      "url": "https://x.com/stratejake/status/1760333904857497650?s=46&t=SkjQVWGavEkqC-JGsZpsGQ"
+    },
+    {
+      "sender": "Max Buckley",
+      "date": "2/22/24",
+      "url": "https://www.businessinsider.com/google-gemini-ai-pause-image-generation-people-woke-complaints-2024-2?utm_source=facebook&utm_campaign=tech-sf&utm_medium=social&utm_source=reddit.com&r=US&IR=T"
+    },
+    {
+      "sender": "+34 647 16 15 71",
+      "date": "2/22/24",
+      "url": "https://x.com/dynamicwebpaige/status/1760537379369304309"
+    },
+    {
+      "sender": "+41 76 734 39 47",
+      "date": "2/22/24",
+      "url": "https://x.com/basedtorba/status/1760486551627182337?s=46&t=SkjQVWGavEkqC-JGsZpsGQ"
+    },
+    {
+      "sender": "Max Buckley",
+      "date": "2/26/24",
+      "url": "https://azure.microsoft.com/en-us/blog/microsoft-and-mistral-ai-announce-new-partnership-to-accelerate-ai-innovation-and-introduce-mistral-large-first-on-azure/"
+    },
+    {
+      "sender": "Max Buckley",
+      "date": "2/29/24",
+      "url": "https://arxiv.org/abs/2305.10266."
+    },
+    {
+      "sender": "+370 676 81011",
+      "date": "2/29/24",
+      "url": "https://twitter.com/immanencer/status/1762982967872508021"
+    },
+    {
+      "sender": "+41 78 711 07 22",
+      "date": "3/1/24",
+      "url": "https://arxiv.org/abs/2402.19427"
+    },
+    {
+      "sender": "Max Buckley",
+      "date": "3/4/24",
+      "url": "https://arxiv.org/abs/2402.00838?utm_source=substack&utm_medium=email"
+    }
+  ]
+}
